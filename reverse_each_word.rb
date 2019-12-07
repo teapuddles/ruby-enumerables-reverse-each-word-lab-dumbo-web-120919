@@ -1,10 +1,9 @@
-
-  def reverse_each_word(string)
-  dev = string.split(" ")
+def reverse_each_word(string)
+  sentence = string.split(" ")
   new = []
-  dev.each do |i| 
-    dev[i].reverse 
+  sentence.each do |i| 
+    sentence[i].reverse 
   end
-	new << dev
+  
 end
 end 
