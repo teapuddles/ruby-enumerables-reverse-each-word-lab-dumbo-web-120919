@@ -3,5 +3,5 @@ def reverse_each_word(string)
   sentence = string.split(" ")
   sentence.each do |str| 
     sentence[str].reverse 
-  
+  new << sentence
 end
