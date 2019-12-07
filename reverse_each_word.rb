@@ -1,8 +1,8 @@
 def reverse_each_word(string)
   sentence = string.split(" ")
-  new = []
+  reversed = []
   sentence.each do |str| 
-    new << str.reverse
+    reversed << str.reverse
 end
- new
+  return reversed 
 end
